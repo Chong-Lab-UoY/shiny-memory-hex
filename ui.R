@@ -4,28 +4,28 @@
 # Title : Memory Hex - UI
 #    By : dreamRs
 #  Date : 2019-02-06
-#    
+#
 #  ------------------------------------------------------------------------
 
 library("shiny")
 
 fluidPage(
-  
+
   tags$head(
     tags$link(href="styles.css", rel="stylesheet", type="text/css"),
     tags$script(src = "http://platform.twitter.com/widgets.js"),
     includeHTML(path = "www/google-analytics.html")
   ),
-  
+
   tags$div(
     class = "title-app",
     tags$h1("Microbes Match Game"),
     tags$h4("Find matching microbes!")
   ),
   tags$br(),
-  
+
   # verbatimTextOutput("test_res_show"),
-  
+
   tags$div(
     style = "width: 650px; margin: auto;",
     time_UI("timer"),
@@ -38,5 +38,5 @@ fluidPage(
     )#,
     # verbatimTextOutput("test_res")
   )
-  
+
 )

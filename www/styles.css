@@ -1,12 +1,12 @@
 body {
-  min-height: 100%; 
-  width:100%; 
+  min-height: 100%;
+  width:100%;
   position: absolute;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: #F7FBFF;
+  background-color: #FFFFFF;
 }
 
 .title-app {
