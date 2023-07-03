@@ -19,7 +19,7 @@ fluidPage(
   
   tags$div(
     class = "title-app",
-    tags$h1("Microbes match game"),
+    tags$h1("Microbes Match Game"),
     tags$h4("Find matching microbes!")
   ),
   tags$br(),
