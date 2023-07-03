@@ -13,7 +13,7 @@ for (i in imgs) {
 }
 
 
-img <- image_read("www/rstats-hex.png")
+img <- image_read("www/Rstats-hex.png")
 img <- image_scale(img, "120x139")
-image_write(image = img, path = "www/rstats-hex.png")
+image_write(image = img, path = "www/Rstats-hex.png")
 

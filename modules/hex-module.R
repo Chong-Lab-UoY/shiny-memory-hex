@@ -43,7 +43,7 @@ hex <- function(input, output, session, hex_logo, reset = reactiveValues(x = NUL
   output$hex <- renderImage({
     if (!click_status$show) {
       list(
-        src = "www/rstats-hex.png", 
+        src = "www/Rstats-hex.png", 
         width = 120, 
         height = 139, 
         contentType = "image/png"
