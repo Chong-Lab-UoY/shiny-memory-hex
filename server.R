@@ -92,18 +92,18 @@ function(input, output, session) {
           tags$br(), tags$br(),
           tags$a(
             href = glue(shareurl, time = isolate(timer())),
-            icon("twitter"), "Tweet your score !", 
+            icon("twitter"), "Tweet your score!", 
             class = "btn btn-info btn-lg"
           ),
           tags$br(), tags$br(),
           
-          tags$p("This app is our submission for the",
-                 tags$a(href = "https://community.rstudio.com/t/shiny-contest-submission-hex-memory-game/25336", "Shiny contest !")),
+          tags$p("This app is based on this submission for the",
+                 tags$a(href = "https://community.rstudio.com/t/shiny-contest-submission-hex-memory-game/25336", "Shiny contest!")),
           
           tags$br(), tags$br(),
           actionButton(
             inputId = "reload",
-            label = "Play again !",
+            label = "Play again!",
             style = "width: 100%;"
           )
         ),

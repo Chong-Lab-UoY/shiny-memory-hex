@@ -8,14 +8,14 @@ welcome_UI <- function(id) {
   modalDialog(
     title = tags$h1(
       style = "text-align: center;",
-      "Welcome to microbes match game !"
+      "Welcome to the #SummerScience microbes match game!"
     ),
     tags$div(
       style = "text-align: center;",
       tags$p("Find all matching microbes as soon as possible!"),
       tags$p("Click on a microbe to select it"),
       tags$p("You can see only two microbes at the same time"),
-      tags$p("When you're ready, click button below to play !")
+      tags$p("When you're ready, click button below to play!")
     ), 
     footer = actionButton(
       inputId = ns("play"),
